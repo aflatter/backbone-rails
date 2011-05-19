@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Alexander Flatter"]
   s.email       = ["aflatter@farbenmeer.net"]
-  s.homepage    = "http://github.com/aflatter/backbone-rails"
+  s.homepage    = "https://github.com/aflatter/backbone-rails"
   s.summary     = "backbone and underscore for Rails 3.1"
   s.description = "Ships backbone and underscore to your Rails 3.1 application through the new asset pipeline."
  

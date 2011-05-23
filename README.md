@@ -9,6 +9,8 @@ Like [jquery-rails](https://github.com/indirect/jquery-rails/), this gem bundles
 
 ## How to use it
 
+### Rails 3.1
+
 Add it to your Gemfile:
 
     gem 'backbone-rails'
@@ -25,10 +27,14 @@ With pure javascript, the lines would look like `app/assets/javascripts/applicat
     //= require underscore
     //= require backbone
 
-### Rails 3.0 generator
+### Rails 3.0
 
-In Rails 3.0, you can also vendor Backbone into your public/javascripts directory with `rails g backbone:install`
+`backbone-rails` ships with a generator that copies all javascript files to `public/javascripts`. You can run it with `rails g backbone:install`.
 
 ## Versioning
 
 The gem will follow backbone versioning.
+
+## Contributors
+
+* [John Bintz](https://github.com/johnbintz) (Support for Rails 3.0 via generators)

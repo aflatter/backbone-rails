@@ -25,6 +25,10 @@ With pure javascript, the lines would look like `app/assets/javascripts/applicat
     //= require underscore
     //= require backbone
 
+### Rails 3.0 generator
+
+In Rails 3.0, you can also vendor Backbone into your public/javascripts directory with `rails g backbone:install`
+
 ## Versioning
 
 The gem will follow backbone versioning.

@@ -4,13 +4,13 @@ $:.unshift lib unless $:.include?(lib)
  
 Gem::Specification.new do |s|
   s.name        = "backbone-rails"
-  s.version     = "0.3.3"
+  s.version     = "0.3.3.1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Alexander Flatter"]
   s.email       = ["aflatter@farbenmeer.net"]
   s.homepage    = "https://github.com/aflatter/backbone-rails"
-  s.summary     = "backbone and underscore for Rails 3.1"
-  s.description = "Ships backbone and underscore to your Rails 3.1 application through the new asset pipeline."
+  s.summary     = "backbone and underscore for Rails"
+  s.description = "Ships backbone and underscore to your Rails 3.1 application through the new asset pipeline. Rails 3.0 is supported via generators."
  
   s.required_rubygems_version = ">= 1.3.6"
 

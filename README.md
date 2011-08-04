@@ -15,12 +15,20 @@ Add it to your Gemfile:
 
     gem 'backbone-rails'
 
-Require what you need in `app/assets/javascripts/application.js.coffee`:
+Require backbone and its dependencies as a group in `app/assets/javascripts/application.js.coffee`:
+
+    #= require backbone-rails
+
+With pure javascript, the lines would look like `app/assets/javascripts/application.js`:
+
+    //= require backbone-rails
+
+Or if you need to, require what you need in `app/assets/javascripts/application.js.coffee`:
 
     #= require json2
     #= require underscore
     #= require backbone
-    
+
 With pure javascript, the lines would look like `app/assets/javascripts/application.js`:
 
     //= require json2

@@ -46,3 +46,4 @@ The gem will follow backbone versioning.
 ## Contributors
 
 * [John Bintz](https://github.com/johnbintz) (Support for Rails 3.0 via generators)
+* [Wes Gibbs](https://github.com/wgibbs) and [Les Hill](https://github.com/leshill) (Include all dependencies as a group)

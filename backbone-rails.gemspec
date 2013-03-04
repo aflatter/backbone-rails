@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = "0.9.10"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Alexander Flatter"]
-  s.email       = ["aflatter@farbenmeer.net"]
+  s.email       = ["flatter@fastmail.fm"]
   s.homepage    = "https://github.com/aflatter/backbone-rails"
   s.summary     = "backbone and underscore for Rails"
   s.description = "Ships backbone and underscore to your Rails 3.1 application through the new asset pipeline. Rails 3.0 is supported via generators."

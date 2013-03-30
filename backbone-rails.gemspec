@@ -4,7 +4,7 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name        = "backbone-rails"
-  s.version     = "0.9.10"
+  s.version     = "1.0.0"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Alexander Flatter"]
   s.email       = ["flatter@fastmail.fm"]
